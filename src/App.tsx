@@ -3,7 +3,7 @@ import chakraTheme from '@chakra-ui/theme'
 import { MainPage } from './pages/MainPage'
 
 
-const { Tabs } = chakraTheme.components
+const { Tabs, Card, Heading, Button } = chakraTheme.components
 
 const theme = extendBaseTheme({
   colors: {
@@ -16,6 +16,9 @@ const theme = extendBaseTheme({
   },
   components: {
     Tabs,
+    Card,
+    Heading,
+    Button
   },
 })
 

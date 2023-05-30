@@ -1,6 +1,8 @@
 import { TabPanel, TabPanels } from "@chakra-ui/react";
 import { AboutPage } from "../pages/AboutPage";
 import { MyWork } from "../pages/MyWorkPage";
+import { WorthReading } from "../pages/WorthReadingPage";
+import { Contact } from "../pages/ContactPage";
 
 function PageContents(): JSX.Element {
     return (
@@ -11,8 +13,8 @@ function PageContents(): JSX.Element {
             <TabPanel>
                 <MyWork/>
             </TabPanel>
-            <TabPanel><p>Worth reading</p></TabPanel>
-            <TabPanel><p>Contact</p></TabPanel>
+            <TabPanel><WorthReading/></TabPanel>
+            <TabPanel><Contact/></TabPanel>
         </TabPanels>
     );
 }
